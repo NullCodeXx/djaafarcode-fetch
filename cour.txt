@@ -1,0 +1,27 @@
+GIT & MODULE NODEJS CONNECTER A NPM ET GITHUB. 
+
+Crée une branche.
+Git branch <nom de la branche>
+Git checkout <nom de la branche>
+Git push <nom de la branche>
+
+Pour crée un tag (lien : http://alx.github.io/gitbook/3_tag_avec_git.html).
+Git tag <nom du tag> (sémantique version exemple : v.0.0.1 ou v0.1.0) git tag v0.0.1
+Pour pousser un tag :
+Git push origin v0.0.1
+Git push —tags 
+
+Inscription à npm site web ou terminal (lien : https://docs.npmjs.com/getting-started/using-tags):
+(Npm prend package sur GitHub et les affiches sur npm.
+npm adduser
+npm login // se connecter
+npm config ls // affiche la config
+npm publish // Publier les package 
+
+
+Une librairie est une function que l’on déclare mais qui n’est pas éxécutable pour que les utilisateurs l’utilise.
+Pour savoir si une Librairie function on dois faire des test unitaire.
+
+Voir les package des autres terminal: 
+npm i djaafarcode-fetch
+Ou
