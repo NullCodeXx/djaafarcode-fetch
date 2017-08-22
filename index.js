@@ -9,7 +9,7 @@
                 xhr.open("GET", url);
                 xhr.onload = function() {
                     if (xhr.status == 200) {
-                        ok(xhr.response);
+                        ok(xhr.responseText);
                     } else {
                         ko(xhr.status)
                     }
