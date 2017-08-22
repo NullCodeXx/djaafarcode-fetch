@@ -1,0 +1,22 @@
+{
+  "name": "djaafarcode-fetch",
+  "version": "1.0.0",
+  "description": "Create npm module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djaafarcode/djaafarcode-fetch.git"
+  },
+  "author": "D. BOUMAZA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djaafarcode/djaafarcode-fetch/issues"
+  },
+  "homepage": "https://github.com/djaafarcode/djaafarcode-fetch#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
