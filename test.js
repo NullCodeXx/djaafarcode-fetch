@@ -3,7 +3,7 @@ Fichier de test unitaire.
 */
 const fetch = require('./index.js');
 //Dog.ceo nous renvois du json.
-fetch("https://dog.ceo/api/breeds/list/allghj") //test mauvaise url pour voir l'erreur exit apparaitre, tester node test.js
+fetch("https://dog.ceo/api/breeds/list/allsrgrer") //test mauvaise url pour voir l'erreur exit apparaitre, tester node test.js
 .then(function(answer) {
     console.log (answer);
     //Vérifier si le chemin est bon ou pas, renvoie une erreur avec exit(0).
